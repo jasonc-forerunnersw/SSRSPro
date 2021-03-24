@@ -1,7 +1,8 @@
 **SSRS Pro**
+
 SSRS Pro is a set of JS controls and server WebAPI enabling you to easily embed reporting into your application.  It includes a viewer to view reports and an explorer to navigate and mange reports.  With the controls you can quickly add full reporting to your application or deploy a standalone report server.
 
-By default, the report store is a file system folder, this works well for small deployments or single machine scenarios.  It also supports a SSRS server as the store.  In the future we will also support a SQL DB report store for larger deployments.  You can also implement your own store.
+By default, the report store is a file system folder, this works well for small deployments or single machine scenarios.  It also supports a SSRS server as the store and a SQL DB. You can also implement your own store.
 
 When not running in SSRS mode, the control support SQL, OLEDB and ODBC data sources.
 
@@ -19,7 +20,7 @@ Sets the store type without code.  Set the file path when the type is folder.
 
 
 Values
-Folder, SSRS, Custom
+Folder, SSRS,SQLDB, Custom
 
 Default
 Folder

@@ -81,7 +81,7 @@
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="SSRSPro, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Forerunner.SSRSProViewer.3.2.100\lib\net46\SSRSPro.dll</HintPath>
+      <HintPath>..\packages\Forerunner.SSRSProViewer.3.2.102\lib\net46\SSRSPro.dll</HintPath>
     </Reference>
     <Reference Include="System.Net" />
     <Reference Include="System.Net.Http" />
@@ -118,6 +118,7 @@
     </Content>
     <None Include="packages.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="readme.txt" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
@@ -209,7 +210,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>54591</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:54591/</IISUrl>
+          <IISUrl>http://localhost:54591</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

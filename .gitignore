@@ -2,3 +2,8 @@
 /Samples/.vs/*
 /Samples/FolderStore/bin/*
 /Samples/FolderStore/obj/*
+/Samples/DBStore/.vs/*
+/Samples/DBStore/bin/*
+/Samples/SSRSStore/.vs/*
+/Samples/SSRSStore/bin/*
+/Samples/SSRSStore/obj/*

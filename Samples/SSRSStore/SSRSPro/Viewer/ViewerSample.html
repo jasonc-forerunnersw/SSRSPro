@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="/Scripts/jquery-3.3.1.js"></script>
+    <script src="/Scripts/moment.min.js"></script>
+    <meta name="viewport" content="width=device-width" />
+    <link href="/SSRSPro/Viewer/SSRSProViewer.css" rel="stylesheet" />
+    <script src="/SSRSPro/Viewer/SSRSProViewer.min.js"></script>
+
+    <title>Sample</title>
+</head>
+<body>
+
+    <div class="reportArea" style="width:100%;height:900px"> </div>
+
+
+    <script>
+        var reportPath = "/AdventureWorks/Reports/Employee Sales Summary 2008.rdl";
+        reportPath = "/AdventureWorks/Reports/Product Line Sales 2008.rdl";
+
+        var proViewer = new SSRSPro.Viewer(document.getElementsByClassName("reportArea")[0]);
+        proViewer.showReport(reportPath);
+
+
+    </script>
+</body>
+</html>
